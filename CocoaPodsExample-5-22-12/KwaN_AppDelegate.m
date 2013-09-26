@@ -7,13 +7,14 @@
 //
 
 #import "KwaN_AppDelegate.h"
-
+#import <AFNetworking.h>
 
 @implementation KwaN_AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     return YES;
 }
 							
