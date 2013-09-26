@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KwaN_ViewController : UIViewController
+@interface KwaN_ViewController : UIViewController <UIScrollViewDelegate>
+
+
+@property (weak, nonatomic) IBOutlet UIScrollView *showScrollView;
+@property (weak, nonatomic) IBOutlet UIPageControl *showPageControl;
+
+
+- (IBAction)pageChanged;
 
 @end
