@@ -8,7 +8,6 @@
 
 #import "KwaN_AppDelegate.h"
 
-
 @implementation KwaN_AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
