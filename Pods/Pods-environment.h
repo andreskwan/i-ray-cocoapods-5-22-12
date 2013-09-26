@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking 9
 #define COCOAPODS_VERSION_PATCH_AFNetworking 1
 
+// ConciseKit
+#define COCOAPODS_POD_AVAILABLE_ConciseKit
+#define COCOAPODS_VERSION_MAJOR_ConciseKit 0
+#define COCOAPODS_VERSION_MINOR_ConciseKit 1
+#define COCOAPODS_VERSION_PATCH_ConciseKit 2
+
